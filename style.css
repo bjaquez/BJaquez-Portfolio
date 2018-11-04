@@ -3,12 +3,22 @@ body {
     background-size: cover;
 }
 
+
+.navbar {
+    background-color: rgba(249,242,250, 0.6);
+}
 .icon {
-    width:39px;
+    width:38px;
     height: 40px
 
 }
 
+.my-pic {
+    width: 50%;
+    height: 80%;
+    margin-right: 20px;
+    float: left;
+}
 #name {
     font-family: 'Parisienne', cursive;
     font-size: 60px;
@@ -26,16 +36,17 @@ body {
     margin-right: auto;
 }
 
+.skill-icon {
+    width: 90px;
+    height: 90px;
+}
+
 .skills-box {
     padding-right: 0px;
     padding-left: 0px;
 }
 
 #card-skills  {
-    margin-top: 10%;
-}
-
-.contact-card {
     margin-top: 5%;
 }
 
@@ -48,7 +59,7 @@ body {
     border-radius: 10px
 }
 .project-card {
-    background-color: rgba(127,173,176, 0.7); 
+    background-color: rgba(127,173,176, 0.5); 
 }
 
 .card-header {
@@ -57,7 +68,29 @@ body {
 
 }
 
+.contact {
+    font-size: 20px
+}
+
 .awesome {
-    width: 25px;
-    height: 25px;
+    font-size: 30px
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #11b4b0;
+}
+
+
+a.nav-link{
+  color: #11b4b0;
+}
+
+a{
+    color: teal;
+}
+
+
+a:hover{
+    color: pink
 }
