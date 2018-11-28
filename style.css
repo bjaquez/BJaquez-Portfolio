@@ -65,7 +65,7 @@ background-image: linear-gradient(to bottom, #f6eaf0, #e4deee, #c6d5eb, #a4cfdd,
 }
 .project-card {
     background-color: rgba(127,173,176, 0.5); 
-    width: 400px;
+    /* width: 400px; */
 }
 
 .project-pic:hover {
