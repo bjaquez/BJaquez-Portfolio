@@ -5,12 +5,14 @@
     background-size: cover;
 }
 #portfolio-body{
-background-image: linear-gradient(to bottom, #f6eaf0, #e4deee, #c6d5eb, #a4cfdd, #8ec6c0);
+/* background-image: linear-gradient(to bottom, #f6eaf0, #e4deee, #c6d5eb, #a4cfdd, #8ec6c0); */
 
+background-image: linear-gradient(to bottom, #8ec6c0, #a4cfdd, #c6d5eb, #e4deee, #f6eaf0);
 }
 
 .navbar {
     background-color: rgba(249,242,250, 0.6);
+    
 }
 .icon {
     width:35px;
